@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("./mount.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.e{
+    margin: 0 4rem;
+    margin-top: -20rem;
+    text-shadow: 1.5px 2px 4px #454445;
+    
+}
+
+.time{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    
+
+}
+
+span{
+    font-style: italic;
+   
+}
